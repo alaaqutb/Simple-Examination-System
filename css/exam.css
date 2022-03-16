@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    font-family: 'Bitter', serif;
+    color: darkblue;
+}
+
+input[type="button"], input[type="submit"] {
+    height: 40px;
+    width: 100px;
+
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: #182F7A;
+    margin-top: 10px;
+    font-family: 'Bitter', serif;
+}
+
+
+div#container {
+    width: 60%;
+    text-align: center;
+    margin: 100px auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 5px 10px 0px #182f7a5d;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+div#header {
+    border-bottom: 2px solid #182F7A;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+    background: #182F7A;
+    color: white;
+    box-shadow: 0px 5px 10px 0px #182f7a5d;
+}
+
+#input_para{
+    background: aliceblue;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px 15px;
+    margin: 5px auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+label {
+    cursor: pointer;
+}
+
+p#time {
+    margin: 10px auto 0px;
+    padding: 5px 15px;
+    border: 2px solid #182F7A;
+    border-radius: 5px;
+    width: max-content;
+}
+
+div#popup {
+    width: 50%;
+    padding: 70px 50px 30px 50px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+    background: #182F7A;
+    
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+input[id="again"] {
+    border: 1px solid white;
+    background-color: white;
+    color: #182F7A;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+form select[name="username"] {
+    display: block;
+    margin: 20px auto 10px;
+    padding: 5px;
+    width: 50%;
+    height: fit-content;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: #182F7A;
+}
+
+span {
+    font-size: 25px;
+}
+
+span#time {
+    position: absolute;
+    left: 73%;
+    background-color: white;
+    color: #182F7A;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    width: 80px;
+    text-align: center;
+}
+
+.question {
+    font-size: 30px;
+    margin-bottom: 15px;
+}

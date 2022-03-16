@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="css/exam.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="header">
+            <div>Student Name: <span class="name"></span><span id="time"></span></div>
+        </div>
+        <form action="" method="">
+            <!-- <p id="time"></p> -->
+            <div id="quiz1">
+                <p class="question">1. Which of these variable types matches a pointer?</p>
+                <p id="input_para">
+                    <input type="radio" id="answer11" name="question1" value="1">
+                    <label for="answer11">int</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer12" name="question1" value="2">
+                    <label for="answer12">float*</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer13" name="question1" value="3">
+                    <label for="answer13">long</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer14" name="question1" value="4">
+                    <label for="answer14">char</label>
+                </p>
+            </div>
+            <div id="quiz2">
+                <p class="question">2. In which order does the compilation occur?</p>
+                <p id="input_para">
+                    <input type="radio" id="answer21" name="question2" value="1">
+                    <label for="answer21">Preprocessor – Compiler – Linker</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer22" name="question2" value="2">
+                    <label for="answer22">Compiler – Linker – Preprocessor</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer23" name="question2" value="3">
+                    <label for="answer23">Linker – Preprocessor – Compiler</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer24" name="question2" value="4">
+                    <label for="answer24">Preprocessor – Linker – Compiler</label>
+                </p>
+            </div>
+            <div id="quiz3">
+                <p class="question">3. What does the following code give: &A ?</p>
+                <p id="input_para">
+                    <input type="radio" id="answer31" name="question3" value="1">
+                    <label for="answer31">The address of the variable A</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer32" name="question3" value="2">
+                    <label for="answer32">The value of the variable A</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer33" name="question3" value="3">
+                    <label for="answer33">The value of the variable to which A points</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer34" name="question3" value="4">
+                    <label for="answer34">None of the above</label>
+                </p>
+            </div>
+            <div id="quiz4">
+                <p class="question">4. What does the following code give: *A ?</p>
+                <p id="input_para">
+                    <input type="radio" id="answer41" name="question4" value="1">
+                    <label for="answer41">The address of the variable A</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer42" name="question4" value="2">
+                    <label for="answer42">The value of the variable A</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer43" name="question4" value="3">
+                    <label for="answer43">The value of the variable to which A points</label>
+                </p>
+                <p id="input_para">
+                    <input type="radio" id="answer44" name="question4" value="4">
+                    <label for="answer44">None of the above</label>
+                </p>
+            </div>
+            <input type="button" id="previous" value="Previous"/>
+            <input type="button" id="next" value="Next"/>
+           <!-- <input type="submit" id="submit" value="Submit"/>  --> 
+        </form>
+    </div>
+
+    <div id="popup" class="popup">
+        <p>Name: <span class="name"></span></p>
+        <p style="display: block;">Degree: <span id="degree"></span> / 100</p>
+        <input type="button" id="again" value="Try Again"/>
+    </div>
+    <script src="js/exam.js"></script>
+</body>
+
+</html>
